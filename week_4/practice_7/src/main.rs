@@ -12,7 +12,9 @@ fn main(){
     while num < 10 {
 
         println!("inside loop number value is {}",num);
-        num+1;
+        num+=1;
+        
     }
     println!("Outside loop number value is {}",num);
+    
 }

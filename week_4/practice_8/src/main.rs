@@ -5,10 +5,10 @@ fn main() {
 
     let mut x = 0;
     loop {
-        x+=1;
+        x+=2;
         println!("x={}",x );
 
-        if x==15 {
+        if x==150 {
             break;
         }
     }

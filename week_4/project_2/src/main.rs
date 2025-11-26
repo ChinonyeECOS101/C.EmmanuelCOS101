@@ -28,11 +28,8 @@ fn main(){
             incent = 1_560_000;
         }else if agi >= 30 {
             incent = 1_480_000;   
-        }else if agi < 28 {
-            incent = 1_300_000;
         }else {
-            // if the agi is between 28 and 29 (not covered above), assume same as < 28
-            incent = 1_300_000
+            incent = 1_300_000;
         }
     }else {
         incent = 100_000;
